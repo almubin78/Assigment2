@@ -6,19 +6,32 @@
     align-items: center;
     justify-content: space-between;
     width: 100%;
+    
 }
 .title, .main_photo{
     width:45%;
     padding:5%;
     overflow: hidden;
 }
-
+.title h1{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    
+}
 .main_photo{
-
+ overflow: hidden;
+ 
+}
+.photo{
+    transition: transform 0.4s ease-in ;
+}
+.main_photo:hover .photo{
+    transform: scale(1.2);
 }
 .banner{
     display: flex;
-    padding: 10px 250px;
+    padding: 0px 250px;
     align-items: center;
     justify-content: space-between;
 }

@@ -1,5 +1,6 @@
 .collection{
-    margin: 50px 150px;
+    margin: 0px 150px;
+    padding:30px;
 }
 .collection h1{
     text-align: center;
@@ -18,4 +19,17 @@
 .single_box img{
  width: 100%;
  height: 60%;
+}
+.rate .fas{color:rgb(233, 94, 14)}
+footer{
+    width:100%;
+    padding:50px 0px;
+    background-color: #0A0826;
+    color:rgb(245, 234, 213);
+    text-align: center;
+    margin-top:50px;
+}
+.social .fab{
+    margin-left: 20px;
+    font-size: 30px;
 }
