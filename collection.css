@@ -1,0 +1,21 @@
+.collection{
+    margin: 50px 150px;
+}
+.collection h1{
+    text-align: center;
+    font-weight: 700;
+    font-size: 2.2em ;
+}
+.product_details{
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 40px;
+}.single_box{
+    padding:10px;
+    box-shadow: 2px 2px 5px;
+}
+.single_box img{
+ width: 100%;
+ height: 60%;
+}
