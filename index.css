@@ -1,8 +1,12 @@
 @import url(header.css);
 @import url(collection.css);
 @import url(responsiv.css);
+@import url(responsiv_tablet.css);
 body{
     background-color:#3A3A3A3A;
+    font-family: 'Merriweather', serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
 }
 .top_container{
     background-color: #FFFFFF;

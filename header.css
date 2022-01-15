@@ -29,9 +29,23 @@
 .main_photo:hover .photo{
     transform: scale(1.2);
 }
+button{
+    padding: 10px 25px;
+    border-radius:20px;
+    cursor: pointer;
+    background-color:#E02C6D ;
+    color:blanchedalmond;
+    font-size: 20px;
+    border:none;
+}
 .banner{
     display: flex;
     padding: 0px 250px;
     align-items: center;
     justify-content: space-between;
+    padding: 15px 170px;
+}
+hr{
+    margin-left: 150px;
+    margin-right: 150px;
 }

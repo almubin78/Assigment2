@@ -8,20 +8,30 @@
     .top_container{
         margin:0;
         padding:0;
-    
+  
+         /* ______________
+      This is nav section
+     _________________*/
     }
     nav ul a{
         display: none;
     }
+   
+     /* ______________
+     this is header section 
+     _________________*/
     .first_sectoion{
-            display: grid;
-            grid-template-columns: repeat(1, 1fr);  
+            display: flex;
+            flex-direction: column;
             margin:0;     
             padding: 0;   
      }
+     .title{
+         text-align: center;
+     }
      .main_photo{
          margin:0;
-         padding: 0;
+         padding: 5px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -31,23 +41,77 @@
      .main_photo .photo img{
         width: 100%;
      }
-     .banner{
-         display: grid;
-         grid-template-columns: repeat(2,1fr);
+     /* ______________
+     This is banner section 
+     _________________*/
+     .banner_box{
+         display: flex;
+         flex-direction: column;
+         clear: both;
      }
+     .banner {
+        display: grid;
+        grid-template-columns: repeat(2, 6fr);
+        margin: 10px auto;
+        padding: 40px;
+        grid-row-gap: 40px;
+        
+        
+     }
+      /* ______________
+      This is colletion section
+     _________________*/
      .collection{
         padding:0;
-        margin:0;
+        margin:0 auto;
      }
      .product_details{
-        display: grid;
-        grid-template-columns: repeat(1,1fr);
-        padding: 2px;
+        /* display: grid;
+        grid-template-columns: repeat(1,1fr); */
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
      }
      .single_box{
-         width:300px;height:500px;
+         /* width:300px;height:500px; */
+         padding: 3px 2px;
+         border-radius: 2px;
+     }
+
+     footer{
+         margin-top: 10px;
      }
 }
-@media only screen and (min-width: 600px) {
-
+@media only screen and (max-width: 1200px) and (min-width: 600px){
+    body{
+        margin:0;
+        padding:0;
+        background-color: #FFFFFF;
+    }
+    .top_container{
+        margin:0;
+        padding:0;
+        width:100%;}
+     /* ______________
+     
+     _________________*/
+    .collection{
+        padding: 0px;
+        width: 100%;
+        height: auto;
+    }
+    .product_details{
+        display: grid;
+        grid-template-columns:repeat(2,1fr);
+        grid-column-gap: 30px;
+        grid-row-gap: 40px;
+    }.single_box{
+        padding:10px;
+        box-shadow: 2px 2px 5px;
+        border: 2px solid red;
+    }
+    .single_box img{
+     width: 100%;
+     height: 50%;
+    }
 }

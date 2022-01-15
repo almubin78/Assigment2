@@ -21,6 +21,22 @@
  height: 60%;
 }
 .rate .fas{color:rgb(233, 94, 14)}
+
+.social .fab{
+    margin-left: 20px;
+    font-size: 30px;
+}
+.single_button{
+    margin-top: 30px;
+    float: right;
+    position: relative;
+}
+.single_button a{
+    text-decoration: none;
+    font-size: 20px;
+    color:#E02C6D;
+    font-weight: 600;
+}
 footer{
     width:100%;
     padding:50px 0px;
@@ -28,8 +44,4 @@ footer{
     color:rgb(245, 234, 213);
     text-align: center;
     margin-top:50px;
-}
-.social .fab{
-    margin-left: 20px;
-    font-size: 30px;
 }
