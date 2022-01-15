@@ -1,0 +1,53 @@
+@media only screen and (max-width: 600px){ 
+    
+    body{
+        margin:0;
+        padding:0;
+        background-color: #FFFFFF;
+    }
+    .top_container{
+        margin:0;
+        padding:0;
+    
+    }
+    nav ul a{
+        display: none;
+    }
+    .first_sectoion{
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);  
+            margin:0;     
+            padding: 0;   
+     }
+     .main_photo{
+         margin:0;
+         padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+     }
+     
+     .main_photo .photo img{
+        width: 100%;
+     }
+     .banner{
+         display: grid;
+         grid-template-columns: repeat(2,1fr);
+     }
+     .collection{
+        padding:0;
+        margin:0;
+     }
+     .product_details{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        padding: 2px;
+     }
+     .single_box{
+         width:300px;height:500px;
+     }
+}
+@media only screen and (min-width: 600px) {
+
+}
